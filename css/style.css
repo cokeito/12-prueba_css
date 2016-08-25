@@ -1,0 +1,44 @@
+/* 
+   ____   ______ ______
+ _/ ___\ /  ___//  ___/
+ \  \___ \___ \ \___ \ 
+  \___  >____  >____  >
+      \/     \/     \/ 
+	css for prueba-css
+	===================/
+
+	author: : coke
+	date 	: 25th Aug 2016
+	g5.desafiolatam.com
+
+ */
+
+body {
+
+}
+
+#welcome {
+	background:url('../images/bg.jpg');
+	background-size: cover;
+	min-height: 500px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+#welcome h1 {
+	color:#fff;
+	text-align: center;
+	font-size:64px;
+	text-transform: uppercase;
+}
+
+
+footer .bar-1 {
+	background-color:#4F0B48;
+	height: 50px;
+}
+
+footer .bar-2 {
+	background-color:#551273;
+	height: 90px;
+}
