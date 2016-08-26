@@ -20,6 +20,10 @@ body {
 
 .img-center {margin:0 auto;}
 
+.pd-b-40 {
+	padding-bottom:40px;
+}
+
 .font-1 {
 	font-family: 'Baloo Paaji', cursive;
 }
