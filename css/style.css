@@ -14,13 +14,28 @@
  */
 
 body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size:18px;
+}
 
+.img-center {margin:0 auto;}
+
+.font-1 {
+	font-family: 'Baloo Paaji', cursive;
+}
+
+.font-2 {
+	    font-family: 'Indie Flower', cursive;
+}
+
+.font-3 {
+	font-family: 'Open Sans', sans-serif;
 }
 
 #welcome {
 	background:url('../images/bg.jpg');
 	background-size: cover;
-	min-height: 500px;
+	min-height: 600px;
 	padding-top:50px;
 	padding-bottom:50px;
 }
@@ -30,15 +45,163 @@ body {
 	text-align: center;
 	font-size:64px;
 	text-transform: uppercase;
+	padding-top:40px;
+	text-shadow: 1px 1px 0px rgba(224, 210, 222, 1);
+	padding-bottom:40px;
+	font-family: 'Baloo Paaji', cursive;
+
+}
+
+#welcome p.main-sub-title {
+	font-size:32px;
+	color:#33DBA0;
+	text-align: center;
+	text-shadow: 1px 1px 0px rgba(224, 210, 222, 1);
+}
+
+#welcome .button-action {
+	text-align: center;
+	margin-top:70px;
+	margin-bottom:70px;
+}
+
+#new-section {
+	min-height: 400px;
+	background-color:#fff;
+	text-align: center;
+	border-top:2px solid #0C78BC;
+	border-bottom:2px solid #0C78BC;
+	padding:60px 0px;
 }
 
 
+#new-section p {
+	font-size:20px;
+}
+
+#bored {
+	min-height: 220px;
+	background-color:#05577D;
+	color:#fff;
+	padding:40px 0px;
+}
+
+#bored .title-bored {
+	font-size:40px;
+	text-transform: uppercase;
+	padding-bottom:30px;
+	font-weight: bold;
+}
+
+#bored .sub-title-bored {
+	font-size:24px;
+
+}
+
+#quote {
+	padding:70px 0px;
+	background-color:#FF9319;
+	color:#fff;
+	text-align: center;
+}
+
+#signup {
+	padding:70px 0px;
+}
+
+#signup .quote-bordered {
+	padding:30px 0px;
+	border-top:2px dashed #e6e6e6;
+	border-bottom:2px dashed #e6e6e6;
+	font-size:28px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom:50px;
+}
+
+#sponsors {
+	padding:40px 0px;
+}
+#sponsors .quote-bordered {
+	padding:30px 0px;
+	border-top:2px dashed #e6e6e6;
+	border-bottom:2px dashed #e6e6e6;
+	font-size:30px;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom:50px;
+	text-transform: uppercase;
+}
+
+#hax0r {
+	padding:60px 0px;
+}
+
+#hax0r h2 {
+	margin-bottom:30px;
+}
+
+#hax0r .hacker-name {
+	font-size:30px;
+	font-weight:bold;
+	color:#A70F89;
+}
+
+#hax0r .hacker-bio {
+	font-size:24px;
+	color:#333;
+	text-align: justify;
+}
+
+footer {
+	color:#fff;
+}
+
 footer .bar-1 {
+	padding:30px 0px;
 	background-color:#4F0B48;
-	height: 50px;
+
 }
 
 footer .bar-2 {
 	background-color:#551273;
-	height: 90px;
+	min-height: 90px;
+	padding:20px 0px;
+}
+
+footer ul.menu-social  {
+	list-style: none;
+}
+
+	ul.menu-social  li {
+		float:left;
+		margin-left:20px;
+	}
+
+	ul.menu-social  li a {
+		color:#fff;
+		font-size:20px;
+	}
+
+	ul.menu-social  li a:hover {
+		color:#830F4E
+	}
+
+footer ul.menu-info  {
+	list-style: none;
+}
+	
+	ul.menu-info li a {
+		color:#fff;
+	}
+
+	ul.menu-info li a:hover {
+		color:#8AF6E7;
+	}
+
+
+#back2top {
+	position:fixed;
+	bottom:2%;
+	right:2%;
 }
