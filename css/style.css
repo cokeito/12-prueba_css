@@ -205,3 +205,22 @@ footer ul.menu-info  {
 	bottom:2%;
 	right:2%;
 }
+
+#author {
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+
+#author .label-coke {
+	font-size:12px;
+	color:#fff;
+	background-color:#810442;
+}
+
+.pic-container .pic-label {
+	position:relative;
+	top:50px;
+	left:50px;
+	
+}
